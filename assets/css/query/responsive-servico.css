@@ -1,0 +1,5 @@
+@media only screen and (max-width: 576px) {
+    #servico {
+      height: 50rem !important;
+    }
+  }
