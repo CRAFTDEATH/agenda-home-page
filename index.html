@@ -17,13 +17,13 @@
     <script src="https://kit.fontawesome.com/149e6ebcdd.js" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function () {
-            $('#servico').mouseover(function(){
+            
+            setTimeout(function() { 
                 $('#conteudo-1').fadeIn("slow");
                 $('#conteudo-2').fadeIn("slow");
-            });
-            $('#missao').mouseover(function(){
                 $('#conteudo-3').fadeIn("slow");
-            });
+            }, 2000);
+            
         });
     </script>
   </head>
