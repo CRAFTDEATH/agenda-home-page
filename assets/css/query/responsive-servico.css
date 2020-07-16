@@ -1,5 +1,13 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 960px) {
     #servico {
       height: 50rem !important;
     }
+    #titulo-1{
+      margin-top: 10px;
+    }
+    #titulo-3{
+      margin-top: 10px;
+    }
   }
+
+  
